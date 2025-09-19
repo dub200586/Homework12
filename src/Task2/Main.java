@@ -27,5 +27,7 @@ public class Main {
         if (email.find()) {
             System.out.println("Email: " + email.group());
         }
+
+        sc.close();
     }
 }
